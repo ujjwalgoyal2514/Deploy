@@ -1,0 +1,44 @@
+{% extends "parent.html" %}
+{% block main %}
+{% load static %}
+<h1 style="text-align: center;"> About Us</h1>
+<main class="container">
+    <section class="team-members">
+        <h2 style="font-weight:bold">Our Team</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-5 mb-4">
+                <div>
+                    <img src="{% static 'images/employee1.jpeg' %}" class="employe" alt="Team Member 1" style="width:200px;height:200px;">
+                    <h3>Team Member 1</h3>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 mb-4">
+                <div >
+                    <img src="{% static 'images/employee2.jpeg' %}"  class="employe" alt="Team Member 2" style="width:200px;height:200px;">
+                    <h3>Team Member 2</h3>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 mb-4">
+                <div>
+                    <img src="{% static 'images/employee3.jpg' %}" class="employe" alt="Team Member 2" style="width:200px;height:200px;"/>
+                    <h3>Team Member 3</h3>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 mb-4">
+                <div >
+                    <img src="{% static 'images/employee4.jpeg' %}" class="employe" alt="Team Member 2" style="width:200px;height:200px;">
+                    <h3>Team Member 4</h3>
+                </div>
+            </div>
+            <!-- Add more team members here -->
+        </div>
+        <p style="text-align:left;">A Library Management System (LMS) is a digital solution designed to streamline and enhance the management of libraries, making the process of cataloging, organizing, and accessing resources more efficient. It serves as the backbone of any library, whether in educational institutions, public facilities, or corporate settings.
+
+            One of the primary advantages of an LMS is its ability to simplify the cataloging and tracking of a vast array of resources, including books, journals, multimedia materials, and digital content. It enables librarians to create comprehensive databases, categorize materials, and maintain up-to-date records of acquisitions, loans, and returns. Patrons, in turn, benefit from user-friendly interfaces that allow them to search for, reserve, and check out materials seamlessly.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolorum necessitatibus libero odio explicabo eius autem eum, doloremque odit? Cupiditate ullam iste ipsum quas rem perspiciatis, maxime debitis dignissimos, est temporibus dolores, ipsam possimus labore hic adipisci et perferendis saepe praesentium exercitationem. Illum voluptas aperiam reiciendis reprehenderit, tempore iusto temporibus ducimus, aliquam laborum suscipit amet dolorem natus perferendis dignissimos culpa, autem in voluptatem fugiat molestiae sed incidunt accusantium. Illum accusantium impedit hic autem odio quasi? Atque temporibus a, enim commodi nobis tempore porro ratione totam adipisci reiciendis nemo autem et quis eius necessitatibus quidem omnis architecto doloribus numquam dolores ullam.
+        </p>
+    </section>
+{% endblock main%}
